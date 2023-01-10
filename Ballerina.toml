@@ -1,0 +1,9 @@
+[build-options]
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.2.3"
+  name = "byoc_598_test"
+  org = "yashodperera"
+  version = "0.1.0"
+
