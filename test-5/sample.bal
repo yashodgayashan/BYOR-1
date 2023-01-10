@@ -10,7 +10,7 @@ configurable string test = ?;
 
 service / on new http:Listener(8090) {
     resource function get .(string name) returns Greeting {
-        Greeting greetingMessage = {"from" : "Choreo", "to" : name, "message" : "Welcome to Choreo!", "this": test};
+        Greeting greetingMessage = {"from" : "Choreo", "to" : name, "message" : "Welcome t o Choreo!", "this": test};
         return greetingMessage;
     }
 }
