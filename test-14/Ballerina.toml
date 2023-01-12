@@ -3,10 +3,7 @@
 
 [package]
   distribution = "2201.2.3"
-  export = ["greeting_service_kq"]
-  icon = "docs/icon.png"
-  keywords = ["Kind/Sample","Type/RestApi","Category/Service","Internal/http"]
-  name = "greeting_service_kq"
-  org = "choreouptime"
-  version = "1.2.1"
+  name = "greeting_service_21"
+  org = "yashodperera"
+  version = "0.1.0"
 
