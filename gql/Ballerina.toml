@@ -1,0 +1,12 @@
+[package]
+org = "choreo"
+name = "proj2"
+version = "1.0.1"
+export = ["proj2"]
+distribution = "2201.1.2"
+keywords = ["Type/GraphQL","Category/Service","Internal/http"]
+icon = "docs/icon.png"
+
+[build-options]
+observabilityIncluded = true
+s
