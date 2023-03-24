@@ -11,7 +11,7 @@ service / on new http:Listener(9090) {
     resource function get greeting(string name) returns string|error {
         // Send a response back to the caller.
         if name is "" {
-            return error("name shouldssss not sssbe emss. pty !");
+            return error("name shouldssss not sssbe emss.ss pty !");
         }
         return "Hellosssss ra,  sss";
     }
