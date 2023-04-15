@@ -13,6 +13,6 @@ service / on new http:Listener(9090) {
         if name is "" {
             return error("name shoul. dssss not sssbe emss.ss pty !");
         }
-        return "Hello  sssss  ssra,  sss"
+        return "Hello  sssss  ssra,  sss";
     }
 }
