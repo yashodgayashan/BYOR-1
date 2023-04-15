@@ -3,7 +3,6 @@ import ballerina/http;
 # A service representing a network-accessible API
 # bound to port `9090`.
 
-configurable string test = ?;
 service / on new http:Listener(9090) {
 
     # A resource for generating greetings
@@ -14,6 +13,6 @@ service / on new http:Listener(9090) {
         if name is "" {
             return error("name shoul. dssss not sssbe emss.ss pty !");
         }
-        return "He. llo  sss ss  sss.  sra,  ssssss" + test;
+        return "He. llo  sss ss  sss.  sra,  ssssss" ;
     }
 }
